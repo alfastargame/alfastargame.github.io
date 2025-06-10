@@ -1,16 +1,105 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Four Images — AlfaStarGame</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1b2a;
+      color: #f0f0f0;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px 20px;
+    }
+
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+
+    h1 {
+      margin: 20px 0 10px;
+      font-size: 2.5rem;
+      color: #ffd700;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #a9cce3;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .description {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #1a73e8;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #125bcc;
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+
+    footer a {
+      color: #a9cce3;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-  Hello world main
-  <script src="script.js"></script>
-</body>
+  <header>
+    <img src="logo_asg.png" alt="AlfaStarGame logo">
+    <h1>Four Images</h1>
+    <p class="subtitle">A fun and challenging word game by AlfaStarGame</p>
+  </header>
 
+  <main>
+    <div class="description">
+      Can you guess the word just by looking at four pictures? <br>
+      <strong>Four Images</strong> is a creative puzzle game that tests your logic and imagination. 
+      Look at the four seemingly unrelated images, think outside the box, and find the common word. 
+      The game is simple to start — but truly rewarding as you advance.
+    </div>
+
+    <a class="button" href="https://play.google.com/store/apps/details?id=com.alfastargame.fourimages" target="_blank">
+      Download on Google Play
+    </a>
+  </main>
+
+  <footer>
+    Contact: <a href="mailto:alfastargameoffice@gmail.com">alfastargameoffice@gmail.com</a><br/>
+    &copy; 2025 AlfaStarGame. All rights reserved.
+  </footer>
+</body>
 </html>
